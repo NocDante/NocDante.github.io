@@ -1,0 +1,174 @@
+html
+{
+  font-family: Arial; 
+  box-sizing: border-box;
+}
+*,*:after,*:before
+{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0%;   
+    background-color: #edf2c5;
+    font-family: Arial;   
+}
+
+.Background
+{
+   
+    width: 1260px;
+    height: 880px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #edf2c5;
+}
+
+.body
+{
+    justify-content: center; 
+    align-items: center; 
+}
+
+/*ButtonGroup & Logo*/
+.LogoAndIcon
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+.Logo
+{
+  font-size: 44px;
+  color:#778a50;
+  margin: 0px;
+  font-weight: 900;
+}
+.ButtonGroup
+{
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  height: 25px;
+}
+.ImageButton
+{
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+}
+.SpaceLine
+{
+  width: 2px;
+  height: 25px;
+  background-color: #778a50;
+  margin-left: 10px;
+}
+.WordButton
+{
+  color: #778a50;
+  padding: 5px 5px;
+  border: solid 2px #778a50;
+  height: 25px;
+  border-radius:5px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* Menu */
+.nav
+{
+    height: 44px;
+    display: flex;
+    border-radius: 3px;
+    background-color: #778a50;
+    align-items: center;
+    padding-left: 30px;
+}
+.navword
+{
+    font-size: 16px;
+    margin: 0 60px 0 0;
+    font-weight: 900;
+    color: #edf2c5;
+}
+/* 明天再做 */
+.mainPng
+{
+    height: 448px;
+    margin-top: 20px;
+}
+.Vegetableandcontact
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.vegetableimglist
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Vegetableandcontactword
+{
+    height: 45px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #edf2c5;
+    background-color: #778a50;
+    border-radius: 3px;
+    padding: 11px 316px 11px 30px;
+}
+.vegetable
+{
+    width: 432px;
+}
+.contact
+{
+    width: 444px;
+}
+.contactword
+{
+    background-color: #f7fbda;
+    padding: 15px;
+    height: 140px;
+}
+.fristarticle
+{
+    font-size: 12px;
+    line-height: 1.25;
+    color: #7d7d7d;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    height: 44px;
+}
+.secondarticle
+{
+    font-size: 12px;
+    color: #7d7d7d;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    line-height: 1.75;
+}
+
+.footer_box 
+{
+
+    height: 60px;
+    background-color: #778a50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_Word
+{
+    font-size: 12px;
+    letter-spacing: normal;
+    color: #edf2c5;
+}
