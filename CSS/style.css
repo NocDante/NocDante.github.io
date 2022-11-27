@@ -1,0 +1,167 @@
+body
+{
+    margin: 0%;
+}
+.BigHeader
+{
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(194, 60, 64, 1);
+}
+.Logo
+{
+    height: 140px;
+    width: 140px;
+}
+.BigHeader h1
+{
+
+    font-size: 72px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.IconButton_Menu
+{
+    width: 97px;
+    height: 110px;
+}
+.IconButton_Account
+{
+    width: 103px;
+    height: 106px;
+}
+header
+{
+    background-color: rgb(0, 0, 0); 
+}
+.MotoSeries
+{
+    height: 90px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(0, 0, 0);
+}
+.MotoSeries_Center
+{
+
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.MotoSeries_IconAndButton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255,255, 255, 1);
+    font-size: 36px;
+}
+.IconButton_nav
+{
+    width: 70px;
+    height: 70px;
+}
+
+main
+{
+    background-image: url("../Image/Article/Background/Backgound.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   padding-bottom: 4%;
+}
+
+.Video
+{
+    margin-top: 3%;
+}
+.ArticleAndArrow
+{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    width:1265px;
+    height:800px;
+    background-color: rgb(194, 60, 64);
+}
+.Article
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.Activity_Group
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Activity_Image
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.Activity_Image img
+{
+    height: 500px;  
+    width: 330px;
+}
+
+.ArticleAndArrow h1
+{
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+
+.Arrow
+{
+    padding-top: 4%;
+}
+
+.News_Line
+{
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+.Footer_Word
+{
+   background-color: rgb(217, 217, 217);
+ 
+   height: 100px;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-around;
+
+}
+.Footer_Word h2
+{
+    font-size: 64px;
+    font-weight: 900;
+}
+.Footer_IconButton
+{
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+}
+.Footer_IconButtonOffSet
+{
+
+    padding-right: 12%;
+    display:flex;
+    justify-content: space-between;
+}

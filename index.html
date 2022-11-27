@@ -1,66 +1,101 @@
-<!DOCTYPE html>
-<html lang="en"></html>
-<html>
+
+<!doctype html>
+<html lang="zh-Hant-TW">
     <head>
-        <title>VegetablesWeb</title>
-        <link rel="stylesheet" href="Vegetables.css">
+        <meta charset="utf-8">
+        <title>網頁練習</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+        <!-- <script type="text/javascript" src="./Js/Function.JS"></script>  -->
+        <script
+        src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
     </head>
-    <body>
-        <div class="Background">
-            <header>
-                <div class="LogoAndIcon">
-                    <h1 class="Logo">Vegetables</h1>
-                    
-                    <div class="ButtonGroup">
-                        <!-- ImageButtons -->
-                        <img src="./img/btn_facebook.png" alt="FB_Button" class="ImageButton">
-                        <img src="./img/btn_instagram.png" alt="IG_Button" class="ImageButton">
-                        <!-- WordButtons -->
-                        <div class="SpaceLine"></div>
-                        <p class="WordButton">LOGIN</p>
-                        <p class="WordButton">JOIN</p>
-                    </div>
-                </div>
-                <nav class="nav">
-                    <p class="navword">Home</p>
-                    <p class="navword">About Us</p>
-                    <p class="navword">Vegetables</p>
-                    <p class="navword">Online</p>
-                    <p class="navword">Contact</p>
-                </nav>
-            </header>
-            <main>
-                <img src="./img/img_main_pumpkin.png" alt="" class="mainPng">
-                <div class="Vegetableandcontact">
-                    <div class="vegetable">
-                        <p class="Vegetableandcontactword">Vegetables</p>
-                        <div class="vegetimglist">
-                            <img src="./img/img_vegetables_pepper.png" alt="">
-                            <img src="./img/img_vegetables_carrot.png" alt="">
-                            <img src="./img/img_vegetables_corn.png" alt="">
-                        </div>
-                    </div>
-                    <div class="contact">
-                        <p class="Vegetableandcontactword">Contact</p>
-                        <div class="contactword">
-                            <p class="fristarticle">For any questions or suggestions about Vegetables, Vegetables Club or your 
-                                online order you can contact Vegetables Customer Service by phone, email 
-                                or post and we’ll be happy to help.</p>
-                            <hr>
-                            <p class="secondarticle">E-mail : Vegetables@aaabbccc.com<br>
-                                PHONE : +886-123-456-789
-                              </span></p>
-                        </div>
-                    </div>
-                </div>
-            </main>
+<body>
+ <header>
+    <div class="BigHeader">
+        <img src="./Image/Header/Logo.png" alt="Logo_Button" class="Logo">
+        <h1>Be Your Wing</h1>
+        <div class="IconButton_Header">
+            <img src="./Image/Header/Menu.png" alt="Logo_Button" class="IconButton_Menu">
+            <img src="./Image/Header/Account.png" alt="Logo_Button" class="IconButton_Account">
         </div>
-
-        <footer class="footer_box">
-            <span class="footer_Word">Copyrights-2017-Vegetables-cise-Design-by-Vegetables Text-Style-4</span>
+    </div>
+    <nav class="MotoSeries">
+        <div class="MotoSeries_Center">
+            <div class="MotoSeries_IconAndButton">
+                <img src="./Image/Article/Icon/Cruiser.png" alt="Icon_Button" class="IconButton_nav">
+                <p>巡航系</p>
+            </div>
+            <div class="MotoSeries_IconAndButton">
+                <img src="./Image/Article/Icon/Street.png" alt="Icon_Button" class="IconButton_nav">
+                <p>街跑系</p>
+            </div>
+            <div class="MotoSeries_IconAndButton">
+                <img src="./Image/Article/Icon/Sports.png" alt="Icon_Button" class="IconButton_nav">
+                <p>賽道系</p>
+            </div>
+            <div class="MotoSeries_IconAndButton">
+                <img src="./Image/Article/Icon/Adventure.png" alt="Icon_Button" class="IconButton_nav">
+                <p>冒險系</p>
+            </div>
+            <div class="MotoSeries_IconAndButton">
+                <img src="./Image/Article/Icon/Urban.png" alt="Icon_Button" class="IconButton_nav">
+                <p>城市系</p>
+            </div>
         </div>
+    </nav>
+  </header>
 
-    </body>
+  <main>
+   <div  class="Video"> <iframe width="1265" height="705" src="https://www.youtube.com/embed/byK9l491chw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div class="ArticleAndArrow">
+        <div class="Article">
+            <div class="Activity_Group">
+                <h1>活動快訊</h1>
+                <div class="Activity_Image">
+                    <img id="Activity_Button0" src="./Image/Article/Activity/0.jpg" alt="Activity_Button"></a>
+                    <img id="Activity_Button1" src="./Image/Article/Activity/1.jpg" alt="Activity_Button"></a>
+                    <img id="Activity_Button2" src="./Image/Article/Activity/2.jpg" alt="Activity_Button"></a>
+                </div>
+            </div>
+        </div>
+        <div class="Arrow">
+            <img src="./Image/Article/Arrow/Vector-1.png" >
+            <img src="./Image/Article/Arrow/dot1.png" >
+            <img src="./Image/Article/Arrow/Vector.png" >
+        </div>
+    </div>
+
+
+    <div class="ArticleAndArrow">
+        <h1>新聞中心</h1>
+        <img src="./Image/Article/News/Line 1.png" alt="Activity_Button" class="News_Line">
+        <div class="ArrowAndNews">
+            <img src="./Image/Article/Arrow/Vector-1.png">
+            <a href=""  class="Button_Activity"><img src="./Image/Article/News/1.jpg" alt="Activity_Button" class="News_Button"></a>
+            <img src="./Image/Article/Arrow/Vector.png">
+        </div>
+      <img src="./Image/Article/News/Line 2.png" alt="Activity_Button" class="News_Line">
+    </div>
+  </main>
+
+  <footer>
+    <div class="Footer_Word">
+        <h2>下載服務</h2>
+        <h2>經銷據點</h2>
+        <h2>關於我們</h2>
+    </div>
+    <div class="Footer_IconButton">
+        <div class="Footer_IconButtonOffSet">
+            <a href=""  class="Button_News"><img src="./Image/Footer/Icons/Share.png" alt="Footer_Button"></a>
+            <a href=""  class="Button_News"><img src="./Image/Footer/Icons/Iforamtion.png" alt="Footer_Button"></a>
+            <a href=""  class="Button_News"><img src="./Image/Footer/Icons/Email.png" alt="Footer_Button"></a>
+        </div>
+    </div>
+  </footer>
+</body>
 </html>
-
-
