@@ -143,24 +143,24 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="container" data-aos="fade-left"  data-aos-duration="1000">
+                        <div class="container">
                                         
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="./images/Group 112.png" alt="Image 3"></div>
                                     <div class="swiper-slide"><img src="./images/Group 110.png" alt="Image 1"></div>
                                     <div class="swiper-slide"><img src="./images/Group 111.png" alt="Image 2"></div>
-                                    <div class="swiper-slide"><img src="./images/Group 112.png" alt="Image 2"></div>
+                                    <div class="swiper-slide"><img src="./images/Group 112.png" alt="Image 3"></div>
+                                    <div class="swiper-slide"><img src="./images/Group 110.png" alt="Image 1"></div>
                                 </div>
                                 <div class="swiper-button-next"></div>
                                 <div class="swiper-button-prev"></div>
                             </div>
                         </div>
-                          
-                        <div >
-                                <h4>LCD</h4>
-                                <p class="topic-subtitle">Virtual Metrology Prediction 20% NPI time</p>
-                                <button class="more-up-button">More<img src="images/more-button-arrow.png" alt=""></button>
-                        </div>
+                        <!-- <h4>LCD</h4>
+                        <p class="topic-subtitle">Virtual Metrology Prediction 20% NPI time</p>
+                        <button class="more-up-button">More<img src="images/more-button-arrow.png" alt=""></button> -->
+          
                     </div>
                     <!-- <div class="carousel-item">
                         <div class="container">
@@ -400,16 +400,26 @@
     var swiper = new Swiper(".mySwiper", 
     {
         slidesPerView: 1, // 一次顯示的輪播項目數量
-        spaceBetween: 100, // 輪播項目之間的間距
-        loop: true, // 是否循環輪播
-    //     autoplay: {// 是否自動輪播
-    //     delay: 7000, 
-    //   },
-    navigation: { // 導航按鈕的設置
-        nextEl: ".swiper-button-next", // 下一個按鈕的選擇器
-        prevEl: ".swiper-button-prev", // 上一個按鈕的選擇器
-    },
+        spaceBetween: -400, // 輪播項目之間的間距
+        loop: true,
+        loopAdditionalSlides: 2, // 预加载额外的幻灯片
+        preloadImages: true,
+        lazy: false,
+        initialSlide: 1, // 從第二个開始
+
+        on: {
+            reachEnd: function () {
+            // 当滑动到最后一张幻灯片时触发
+            swiper.loopCreate(); // 创建循环轮播
+            swiper.loopFix(); // 修复循环轮播
+            },
+    // navigation: { // 導航按鈕的設置
+    //     nextEl: ".swiper-button-next", // 下一個按鈕的選擇器
+    //     prevEl: ".swiper-button-prev",  },// 上一個按鈕的選擇器
+    
+     },
     });
+
 
 </script>
 

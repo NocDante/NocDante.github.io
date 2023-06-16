@@ -16,72 +16,59 @@ body {
 }
 
 
-.Header-Logo
-{
+.Header-Logo {
     position: absolute;
     width: 246px;
     height: 39.42px;
-    left: 96px;
-    top: 55px;
-
-}
-
-.Header-row
-{
+    left: 3%;
+    top: 5%;
+  }
+  
+  .Header-row {
     position: absolute;
-    top: 65px;
-    left: 523px;
-    display: flex; /* 使用 Flexbox 布局 */
-    justify-content: space-between; /* 將元素橫向排列並保持間距相等 */
-}
-.Header-word
-{
-    margin-right: 75px;
-    font-size: 25px;
+    top: 6%;
+    left: 20%;
+    display: flex;
+    justify-content: row;
+  }
+  
+  .Header-word {
+    margin-right: 10%;
+    font-size: 1.2vw;
     font-weight: bold;
+    white-space: nowrap;
     color: #878787;
-}
-
-
-.Header-word
-{
-    margin-right: 75px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #878787;
-}
-
-.Header-word:hover 
-{
+  }
+  
+  .Header-word:hover {
     cursor: pointer;
     color: #00ABA2;
     text-decoration: underline;
-    /* transition: 0.3s; */
-}
-
-.Header-Button-Language
-{
-    top: 40px;
-    scale: 95%;
+  }
+  
+  .Header-Button-Language {
+    top: 4%;
+    transform: scale(95%);
     position: absolute;
-    left: 1515px;
-}
-.Header-Button-Language:hover
-{
-
-    content: url('./images/Group\ 57\ \(1\).png');
-}
-.Header-Button-Started
-{
-    top: 40px;
-    scale: 95%;
+    left: 75%;
+  }
+  
+  .Header-Button-Language:hover {
+    content: url('./images/Group%2057%20(1).png');
+  }
+  
+  .Header-Button-Started {
+    top: 4%;
+    transform: scale(95%);
     position: absolute;
-    left: 1621px;
-}
-.Header-Button-Started:hover
-{
-    content: url('./images/Group\ 36\ \(1\).png');
-}
+    left: 80%;
+  }
+  
+  .Header-Button-Started:hover {
+    content: url('./images/Group%2036%20(1).png');
+  }
+  
+  
 
 /* FIRST section */
 /* FIRST section */
@@ -415,7 +402,7 @@ h4 {
   {
     display: flex;
     flex-direction: row;
-    width: 1000%;
+    width: 350%;
   
   }
 
@@ -424,7 +411,6 @@ h4 {
     text-align: center;
 /* 
     background: #fff; */
-
   }
 
 .carousel-inner {
@@ -435,20 +421,21 @@ h4 {
     width: 100%;
 }
 
-.carousel-inner h4 {
+.swiper-slide h4 {
     color: white;
-    padding-bottom: 3px;
+    bottom: 500px;
+    left: 500px;
     border-bottom: solid 3px #00ABA2;
     width: 355px;
 
 }
   
 
-.carousel-inner p {
-    padding-top: 31px;
+.swiper-slide p {
+  
     width: 355px;
     color: white;
-    padding-bottom: 57px;
+
 }
 
 .more-up-button {
@@ -461,13 +448,13 @@ h4 {
     align-items: center;
     color: white;
 
-    justify-content: end;
+    /* justify-content: end; */
 
     padding: 9px 16px;
     border: 2px solid white;
     border-radius: 15px;
     background-color: transparent;
-    margin-bottom: -1px;
+    /* margin-bottom: -1px; */
 
 }
 
