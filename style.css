@@ -20,7 +20,7 @@ body {
     position: absolute;
     width: 246px;
     height: 39.42px;
-    left: 3%;
+    left: 4%;
     top: 5%;
   }
   
@@ -432,7 +432,7 @@ h4 {
   
 
 .swiper-slide p {
-  
+    background-color: #00ABA2;
     width: 355px;
     color: white;
 

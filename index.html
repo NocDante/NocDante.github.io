@@ -147,11 +147,10 @@
                                         
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide"><img src="./images/Group 112.png" alt="Image 3"></div>
                                     <div class="swiper-slide"><img src="./images/Group 110.png" alt="Image 1"></div>
-                                    <div class="swiper-slide"><img src="./images/Group 111.png" alt="Image 2"></div>
+                                    <div class="swiper-slide"><img src="./images/Group 122.png" alt="Image 2"></div>
                                     <div class="swiper-slide"><img src="./images/Group 112.png" alt="Image 3"></div>
-                                    <div class="swiper-slide"><img src="./images/Group 110.png" alt="Image 1"></div>
+                             
                                 </div>
                                 <div class="swiper-button-next"></div>
                                 <div class="swiper-button-prev"></div>
@@ -401,23 +400,30 @@
     {
         slidesPerView: 1, // 一次顯示的輪播項目數量
         spaceBetween: -400, // 輪播項目之間的間距
-        loop: true,
-        loopAdditionalSlides: 2, // 预加载额外的幻灯片
+        // loop: true,
+        loopAdditionalSlides: 1, // 预加载额外的幻灯片
         preloadImages: true,
         lazy: false,
         initialSlide: 1, // 從第二个開始
 
-        on: {
-            reachEnd: function () {
-            // 当滑动到最后一张幻灯片时触发
-            swiper.loopCreate(); // 创建循环轮播
-            swiper.loopFix(); // 修复循环轮播
-            },
+        // on: {
+    // slideChangeTransitionEnd: function () {
+    //   var activeIndex = this.activeIndex;
+    //   var slidesCount = this.slides.length;
+
+    //   // 檢查是否切换到最後一張
+    //   if (activeIndex === slidesCount - 1) {
+    //     // 手动触发 Swiper 的循环
+    //     this.loopCreate();
+    //     this.loopFix();
+    //     this.slideTo(0, 0, false);
+    //   }
+    // },
     // navigation: { // 導航按鈕的設置
     //     nextEl: ".swiper-button-next", // 下一個按鈕的選擇器
     //     prevEl: ".swiper-button-prev",  },// 上一個按鈕的選擇器
     
-     },
+    //  },
     });
 
 
