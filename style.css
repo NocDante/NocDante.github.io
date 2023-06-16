@@ -1,15 +1,86 @@
 body {
     background: linear-gradient(103.42deg, #DAE3E5 0%, #F8F1E8 84.73%), #FFFFFF;
+    margin: 0;
+    padding: 0;
+    margin-top: 4%;
+    /* margin-left: 3%; */
 
 }
 
 .wrap {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    justify-content: center;
+    /* flex-direction: column;
+    align-items: center;  */
+    /* justify-content: center; */
     box-sizing: border-box;
     width: 100%;
+}
+
+
+.Header-Logo
+{
+    position: absolute;
+    width: 246px;
+    height: 39.42px;
+    left: 96px;
+    top: 55px;
+
+}
+
+.Header-row
+{
+    position: absolute;
+    top: 65px;
+    left: 523px;
+    display: flex; /* 使用 Flexbox 布局 */
+    justify-content: space-between; /* 將元素橫向排列並保持間距相等 */
+}
+.Header-word
+{
+    margin-right: 75px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #878787;
+}
+
+
+.Header-word
+{
+    margin-right: 75px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #878787;
+}
+
+.Header-word:hover 
+{
+    cursor: pointer;
+    color: #00ABA2;
+    text-decoration: underline;
+    /* transition: 0.3s; */
+}
+
+.Header-Button-Language
+{
+    top: 40px;
+    scale: 95%;
+    position: absolute;
+    left: 1515px;
+}
+.Header-Button-Language:hover
+{
+
+    content: url('./images/Group\ 57\ \(1\).png');
+}
+.Header-Button-Started
+{
+    top: 40px;
+    scale: 95%;
+    position: absolute;
+    left: 1621px;
+}
+.Header-Button-Started:hover
+{
+    content: url('./images/Group\ 36\ \(1\).png');
 }
 
 /* FIRST section */
@@ -336,20 +407,49 @@ h4 {
     display: flex;
     justify-content: end;
 } */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-wrapper
+  {
+    display: flex;
+    flex-direction: row;
+    width: 1000%;
+  
+  }
 
-.carousel-item {
+
+.swiper-slide {
+    text-align: center;
+/* 
+    background: #fff; */
+
+  }
+
+  .swiper-slide img {
+
+  
+    
+  }
+.carousel-inner {
     background: #777;
-    padding: 305px 14px 27px 50px;
+    /* padding: 305px 14px 27px 550px; */
+    
+    height: 100%;
+    width: 100%;
 }
 
-.carousel-item h4 {
+.carousel-inner h4 {
     color: white;
     padding-bottom: 3px;
     border-bottom: solid 3px #00ABA2;
     width: 355px;
-}
 
-.carousel-item p {
+}
+  
+
+.carousel-inner p {
     padding-top: 31px;
     width: 355px;
     color: white;

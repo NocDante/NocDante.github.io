@@ -17,32 +17,52 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+TC&display=swap" rel="stylesheet">
 
+    <!-- AOS Plugin -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Swiper Plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </head>
 
 <body>
-    <div class = "header"></div>
+    <div class = "header">
+        <div class="header-container">
+            <img class="Header-Logo" src="images/Group 56.png" alt="">
+            <div class="Header-row">
+                <p class="Header-word">Products</p>
+                <p class="Header-word">Solutions</p>
+                <p class="Header-word">Industries</p>
+                <p class="Header-word">Media Center</p>
+                <p class="Header-word">Media Center</p>
+                <p class="Header-word">About us</p>
+            </div>
+            <img class="Header-Button-Language" src="images/Group 57.png" alt="">
+            <img class="Header-Button-Started" src="images/Group 36.png" alt="">  
+        </div>
+    </div>
+
     <div class="wrap">
         <!-- FIRST-SECTION -->
         <!-- FIRST-SECTION -->
         <!-- FIRST-SECTION -->
         <div class="first-section">
             <div class="left-section">
-                <div class="big-topic">
+                <div class="big-topic" data-aos="fade-down-right"  data-aos-duration="1500">
                     <h1>Profet AI AutoML</h1>
                     <h2>Virtual data scientist Platform</h2>
                 </div>
                 <div class="section-to-left">
-                    <p class = "main-text text-1">Serves as a virtual data scientist for the manufacuring Industry,
+                    <p class = "main-text text-1" data-aos="fade-down-right" data-aos-duration="1500">Serves as a virtual data scientist for the manufacuring Industry,
                         the platform is a world-class AutoML crafted from years of
                         experiences working with Taiwanese high-tech manufacuring
                         enterprises.</p>
     
-                    <div class="image-with-buttons">
+                    <div class="image-with-buttons" data-aos="fade-right" data-aos-duration="1500">
                         <img class="main-1-img-left" src="images/main-1-img.png" alt="">
                         <button class="about-us-button">About us</button>
                     </div>
     
-                    <p class="main-text text-2">Profet AI AutoML Platform is an industrial AI platform, that
+                    <p class="main-text text-2"  data-aos="fade-up-right" data-aos-duration="1500">Profet AI AutoML Platform is an industrial AI platform, that
                         empowers companies and their teams with the tools to rapidly
                         develop and deploy industrial AI applications. </p>
                     <div class="social-medias">
@@ -54,7 +74,7 @@
                 </div>
             </div>
             <div class="right-section">
-                <img class="big-img " src="images/big-img.png" alt="">
+                <img class="big-img " src="images/big-img.png" alt="" data-aos="fade-left" data-aos-duration="1500">
             </div>
         </div>
 
@@ -63,7 +83,7 @@
         <!-- SECOND-SECTION -->
         <div class="second-section">
             <div class="second-sec-block">
-                <div class="left-block">
+                <div class="left-block" data-aos="fade-right" data-aos-duration="2000">
                     <div class="most-section-topic">
                         <h4>Customers</h4>
                         <img class="topic-arrow" src="images/topic-arrow.png" alt="">
@@ -73,7 +93,7 @@
                         <p class="topic-subtitle">Trusted by world's leading high-tech manufacturing companies across 12 different manufacturing industries</p>
                     </div>
                 </div>
-                <div class="right-block">
+                <div class="right-block" data-aos="fade-left" data-aos-duration="2000">
                     <div class="company-logos-group">
                         <img class="company-logos company-logo1" src="images/company-logos (2).png" alt="">
                         <img class="company-logos company-logo2" src="images/company-logos (3).png" alt="">
@@ -89,12 +109,12 @@
         <!-- THIRD-SECTION -->
         <!-- THIRD-SECTION -->
         <div class="third-section">
-            <div class="most-section-topic">
+            <div class="most-section-topic"  data-aos="fade-right"  data-aos-duration="1500">
                 <h4>120+Applications</h4>
                 <img class="topic-arrow" src="images/nigga-arrow.png" alt="">
                 <button class="more-button">More</button>
             </div>
-            <div class="subtitle-block">
+            <div class="subtitle-block" data-aos="fade-right"  data-aos-duration="1500">
                 <p class="topic-subtitle">Profet AI rapid implement methodology : one day to start, one week to deploy. Discover the value of AotuML in a blink.</p>
             </div>
         </div>
@@ -102,7 +122,7 @@
         <!-- FOURTH-SECTION -->
         <!-- FOURTH-SECTION -->
         <!-- FOURTH-SECTION -->
-        <div class="fourth-section">
+        <div class="fourth-section" >
             <!-- <div class="carousel-wrapper">
                 <div class="carousel">
                     <div class="carousel-img car-1" style="background-image:url('images/carousel-img\ \(2\).png');">
@@ -123,23 +143,40 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="container">
-                            <h4>LCD</h4>
-                            <p class="topic-subtitle">Virtual Metrology Prediction 20% NPI time</p>
+                        <div class="container" data-aos="fade-left"  data-aos-duration="1000">
+                                        
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="./images/Group 110.png" alt="Image 1"></div>
+                                    <div class="swiper-slide"><img src="./images/Group 111.png" alt="Image 2"></div>
+                                    <div class="swiper-slide"><img src="./images/Group 112.png" alt="Image 2"></div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                          
+                        <div >
+                                <h4>LCD</h4>
+                                <p class="topic-subtitle">Virtual Metrology Prediction 20% NPI time</p>
                                 <button class="more-up-button">More<img src="images/more-button-arrow.png" alt=""></button>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                         <div class="container">
                             <h4>LCD</h4>
                             <p class="topic-subtitle">Virtual Metrology Prediction 20% NPI time</p>
-                                <button class="more-up-button">More<img src="images/more-button-arrow.png" alt=""></button>
+                            <button class="more-up-button">More<img src="images/more-button-arrow.png" alt=""></button>
+                            
                         </div>
-                    </div>
+                        
+                    </div> -->
                 </div>
-            </div>
+
         </div>
 
+  
+          
         <!-- FIFTH-SECTION -->
         <!-- FIFTH-SECTION -->
         <!-- FIFTH-SECTION -->
@@ -147,12 +184,12 @@
             <div class="fifth-wrap">
                 <div class="fifth-wrap-2">
                     <div class="topic-wrapper">
-                        <div class="most-section-topic">
+                        <div class="most-section-topic" data-aos="zoom-in"  data-aos-duration="1500">
                             <h4>Over 50 partners</h4>
                             <img class="topic-arrow" src="images/nigga-arrow.png" alt="">
                             <button class="more-button">More</button>
                         </div>
-                        <div class="subtitle-block">
+                        <div class="subtitle-block" data-aos="zoom-in"  data-aos-duration="1500">
                             <p class="topic-subtitle">Profet AI has extensive experience working with leading businesses and partners across a myriad of industries</p>
                         </div>
                     </div>
@@ -166,7 +203,7 @@
         <!-- SIXTH-SECTION -->
         <!-- SIXTH-SECTION -->
         <!-- SIXTH-SECTION -->
-        <div class="sixth-section">
+        <div class="sixth-section"  data-aos="fade-left"  data-aos-duration="1500">
             <div class="sixth-wrapper">
                 <div class="left-block-sec">
                     <h4>Ready To Go Applications : quickly identify the AutoML landing topic within five minutes</h4>
@@ -184,7 +221,7 @@
         <!-- SEVENTH-SECTION -->
         <!-- SEVENTH-SECTION -->
         <!-- SEVENTH-SECTION -->
-        <div class="seventh-section">
+        <div class="seventh-section"  data-aos="fade-right"  data-aos-duration="1500">
             <div class="left-sec-box">
                 <div class="content-container">
                     <h4>2022 Galaxy Summit Recaps Learn about industry trends and latest AI applications</h4>
@@ -217,7 +254,7 @@
         <!-- EIGHTH-SECTION -->
         <!-- EIGHTH-SECTION -->
         <!-- EIGHTH-SECTION -->
-        <div class="eight-section">
+        <div class="eight-section"  data-aos="zoom-in"  data-aos-duration="1500">
             <div class="user-container">
                 <div class="people-box">
                     <img src="images/user-profile-pic (1).png" alt="" class="profile-pic">
@@ -261,7 +298,7 @@
         <!-- NINTH-SECTION -->
         <!-- NINTH-SECTION -->
         <!-- NINTH-SECTION -->
-        <div class="ninth-section">
+        <div class="ninth-section"  data-aos="zoom-in"  data-aos-duration="1500">
             <div class="left-news">
                 <h5 class="big-news-topic">NEWS</h5>
                 <button class="more-up-button">More<img src="images/more-button-arrow.png" alt=""></button>
@@ -352,6 +389,28 @@
             <p>Copyright © 2018-2022 PROFET AI TECHNOLOGY CO., LTD.  All rights reserved.</p>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
 </body>
+
+<script>
+    //AOS
+    AOS.init();
+    //Swiper
+    var swiper = new Swiper(".mySwiper", 
+    {
+        slidesPerView: 1, // 一次顯示的輪播項目數量
+        spaceBetween: 100, // 輪播項目之間的間距
+        loop: true, // 是否循環輪播
+    //     autoplay: {// 是否自動輪播
+    //     delay: 7000, 
+    //   },
+    navigation: { // 導航按鈕的設置
+        nextEl: ".swiper-button-next", // 下一個按鈕的選擇器
+        prevEl: ".swiper-button-prev", // 上一個按鈕的選擇器
+    },
+    });
+
+</script>
+
 </html>
