@@ -3,15 +3,15 @@ let scale = 1; // Image scale (I work on 1080p monitor)
 let canvas;
 let ctx;
 let dvdImages = [
-    'D:\\NTUT\\Second\\Down\\DymanicWeb\\NocDante.github.io\\images\\0.png',
-    'D:\\NTUT\\Second\\Down\\DymanicWeb\\NocDante.github.io\\images\\1.png',
-    'D:\\NTUT\\Second\\Down\\DymanicWeb\\NocDante.github.io\\images\\2.png',
-    'D:\\NTUT\\Second\\Down\\DymanicWeb\\NocDante.github.io\\images\\3.png',
-    'D:\\NTUT\\Second\\Down\\DymanicWeb\\NocDante.github.io\\images\\4.png',
-    'D:\\NTUT\\Second\\Down\\DymanicWeb\\NocDante.github.io\\images\\5.png'
+    '..//images//0.png',
+    '..//images//1.png',
+    '..//images//2.png',
+    '..//images//3.png',
+    '..//images//4.png',
+    '..//images//5.png'
 ];
 let backgroundImage = new Image();
-backgroundImage.src = 'D:\\NTUT\\Second\\Down\\DymanicWeb\\NocDante.github.io\\images\\background.png'; // Replace "path_to_your_background_image.jpg" with the path to your background image
+backgroundImage.src = '..//images//background.png'; // Replace "path_to_your_background_image.jpg" with the path to your background image
 let logoColor;
 
 let dvd = {
